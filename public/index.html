@@ -12,8 +12,8 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <link rel="stylesheet" href="path/to/main.268e4f45.css" />
-    <link rel="stylesheet" href="path/to/main.1394fa21.css" />
+    <!-- Correct CSS paths -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/static/css/main.css" />
 
     <title>React App</title>
 
@@ -38,22 +38,19 @@
     </script>
 
     <!-- Consolidate script tags to ensure everything loads properly -->
-    <script src="%PUBLIC_URL%/dist/main.ecdc5ca9.js"></script>
-    <script src="%PUBLIC_URL%/main.66e4a853.js"></script>
-    <script src="%PUBLIC_URL%/app.js"></script>
+    <script src="%PUBLIC_URL%/static/js/main.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- 
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
+  --></body>
 </html>
